@@ -1,0 +1,60 @@
+@charset "UTF-8";
+ul li{list-style: none;}
+/*Обнуление*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.field {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.add {
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.list {
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  background: aqua;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.delete {
+  color: red;
+  background: black;
+  text-decoration: none;
+}
+
+.li_done span {
+  text-decoration: line-through;
+}
